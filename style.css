@@ -1,0 +1,113 @@
+.navbar{
+   background: linear-gradient(to right, #92b93e, #f86f6f, #6604c1);
+}
+#home{
+  background-color:rgba(97, 67, 1, 0.362);
+  border-radius: 100px;
+}
+#home:hover{
+  background-color: rgba(0, 0, 0, 0.362);
+
+}
+#about{
+  background-color: rgba(179, 18, 155, 0.15);
+  border-radius: 50px;
+}
+#about:hover{
+  background-color: rgba(97, 150, 115, 0.945);
+  
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+ #home {
+      transition: transform 0.3s ease; 
+    }
+
+#home:hover {
+ transform: scale(1.05);
+  }
+
+.li {
+      transition: transform 0.3s ease; 
+    }
+
+.li:hover {
+ transform: scale(1.05);
+  }
+
+
+.slide-in-left {
+  animation: fadeInLeft 1s ease forwards;
+  opacity: 0;
+}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#about img {
+  max-width: 280px;
+  object-fit: cover;
+  box-shadow: 0 0 20px #ffc107;
+}
+
+
+
+.resumes{
+  background-color: rgb(81, 139, 162);
+  border-radius: 50px;
+}
+
+.resumes:hover{
+  background-color: rgb(140, 211, 239);
+  border-radius: 50px;
+}
+
+
+.resume-badge {
+  background-color: #ffc107;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+
+#project{
+  background-color: rgba(208, 211, 31, 0.642);
+}
+
+#project:hover{
+  background-color: rgba(237, 241, 6, 0.642);
+}
+#po{
+  background-color: #ffecfc;
+  border-radius: 10px;
+}
+
+
+#contact i {
+  color: #ffc107;
+  margin-right: 0.5rem;
+}
+
+#services {
+  background-color: #f0b27bc9;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #212529;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
